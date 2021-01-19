@@ -23,23 +23,20 @@
 
 #about {
   background-color: #F25C84;
-  width: 80%;
 }
 
 #publications {
   background-color: #FEE143;
-  width: 68%;
 }
 
 #teaching {
   background-color: #2EB3E8;
-  width: 56%;
 }
 #CV {
   background-color: #000000;
-  width: 44%;
 }
 
 a {
   text-decoration: none;
 }
+

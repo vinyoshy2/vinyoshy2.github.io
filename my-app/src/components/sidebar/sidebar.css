@@ -1,9 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Rambla:ital,wght@1,700&display=swap');
 
-.email {
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-}
 
 #last-name {
   align-self: flex-end;
@@ -75,4 +71,23 @@
 
 #Magenta {
   background-color: #ff00ff;
+}
+
+
+
+@media (max-width: 800px){
+  .sidebar {
+    width: 90%;
+    height: 100vh;
+    align-self: center;
+  }
+  .name {
+    margin-bottom: 5vh;
+  }
+  .sidebar-image {
+    height: 40vh;
+  }
+  .name-text {
+    font-size: 105px;
+  }
 }

@@ -16,6 +16,8 @@ export default class Navbar extends React.Component {
 	this.clicks = [...Array(4).keys()].map(num => (() => this.click(num)));
 	this.mouseOvers = [...Array(4).keys()].map(num => (() => this.mouseOver(num)));
 	this.mouseOffs = [...Array(4).keys()].map(num => (() => this.mouseOff(num)));
+
+	this.mobile = (window.innerWidth <= 800);
     }
     mouseOver(number) {
         this.setState({ cur_hover: number});    
@@ -30,7 +32,11 @@ export default class Navbar extends React.Component {
 
     compute_width(position) {
         let dist = Math.abs(this.state.cur_hover - position);
-	return 80 - (dist * 12);
+	if (!this.mobile) {
+  	    return 80 - (dist * 12);
+	} else {
+            return 95 - (dist*10);
+	}
     }
     render() {
         return (
