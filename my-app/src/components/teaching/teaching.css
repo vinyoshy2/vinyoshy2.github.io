@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Rambla:ital,wght@1,700&display=swap');
+
+.teaching {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  color: #2EB3E8;
+  text-decoration: none;
+}
+li {
+  margin-left: 40px;
+}
