@@ -35,7 +35,7 @@ export default class Navbar extends React.Component {
 	if (!this.mobile) {
   	    return 80 - (dist * 12);
 	} else {
-            return 95 - (dist*10);
+            return 100 - (dist*10);
 	}
     }
     render() {
@@ -59,7 +59,7 @@ export default class Navbar extends React.Component {
 		    <div class="nav-button" id="CV"
 		        style={{width: this.compute_width(3) + "%"}}
 		        onMouseOver={this.mouseOvers[3]}
-		        onMouseOut={this.mouseOffs[3]}><a target="_blank" rel="noopener noreferrer" href={process.env.PUBLIC_URL + "/cv.pdf"}>CURRICULUM VITAE</a></div>
+		        onMouseOut={this.mouseOffs[3]}><a target="_blank" rel="noopener noreferrer" href={process.env.PUBLIC_URL + "/koshyCV.pdf"}>CURRICULUM VITAE</a></div>
 	    </div>
 	);
     }
