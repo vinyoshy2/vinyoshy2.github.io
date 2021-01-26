@@ -56,6 +56,9 @@ class Publication extends React.Component {
 		    <span>
 		        {this.props.year}.
 		    </span>
+		    <span>
+		        <a href={process.env.PUBLIC_URL + "/papers/" + this.props.filename}> PDF</a>
+		    </span>
 		</p>
             </div>
 	);

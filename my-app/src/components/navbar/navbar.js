@@ -59,7 +59,13 @@ export default class Navbar extends React.Component {
 		    <div class="nav-button" id="CV"
 		        style={{width: this.compute_width(3) + "%"}}
 		        onMouseOver={this.mouseOvers[3]}
-		        onMouseOut={this.mouseOffs[3]}><a target="_blank" rel="noopener noreferrer" href={process.env.PUBLIC_URL + "/koshyCV.pdf"}>CURRICULUM VITAE</a></div>
+		        onMouseOut={this.mouseOffs[3]}>
+		        {
+			    (!this.mobile) ?
+		            <a target="_blank" rel="noopener noreferrer" href={process.env.PUBLIC_URL + "/koshyCV.pdf"}>CURRICULUM VITAE</a> : 
+		            <a target="_blank" rel="noopener noreferrer" href={process.env.PUBLIC_URL + "/koshyCV.pdf"}>CV</a>  
+			}
+		    </div>
 	    </div>
 	);
     }
