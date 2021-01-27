@@ -32,11 +32,7 @@ export default class Navbar extends React.Component {
 
     compute_width(position) {
         let dist = Math.abs(this.state.cur_hover - position);
-	if (!this.mobile) {
-  	    return 80 - (dist * 12);
-	} else {
-            return 100 - (dist*10);
-	}
+  	return 80 - (dist * 12);
     }
     render() {
         return (
