@@ -37,6 +37,13 @@
 }
 
 a {
+  color: inherit;
   text-decoration: none;
 }
 
+
+a:visited {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}

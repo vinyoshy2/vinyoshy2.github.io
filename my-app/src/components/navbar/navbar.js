@@ -37,22 +37,22 @@ export default class Navbar extends React.Component {
     render() {
         return (
 	    <div class="navbar">
-   		    <div class="nav-button" id="about"
+   		    <nav class="nav-button" id="about"
 		        style={{width: this.compute_width(0) + "%"}}
 		        onClick={this.clicks[0]} 
 		        onMouseOver={this.mouseOvers[0]}
-		        onMouseOut={this.mouseOffs[0]}>ABOUT</div>
-		    <div class="nav-button" id="publications" 
+		        onMouseOut={this.mouseOffs[0]}>ABOUT</nav>
+		    <nav class="nav-button" id="publications" 
 		        style={{width: this.compute_width(1) + "%"}}
 		        onClick={this.clicks[1]}
 		        onMouseOver={this.mouseOvers[1]}
-		        onMouseOut={this.mouseOffs[1]}>PUBLICATIONS</div>
-		    <div class="nav-button" id="teaching"
+		        onMouseOut={this.mouseOffs[1]}>PUBLICATIONS</nav>
+		    <nav class="nav-button" id="teaching"
 		        style={{width: this.compute_width(2) + "%"}}
 		        onClick={this.clicks[2]}
 			onMouseOver={this.mouseOvers[2]}
-			onMouseOut={this.mouseOffs[2]}>TEACHING</div>
-		    <div class="nav-button" id="CV"
+			onMouseOut={this.mouseOffs[2]}>TEACHING</nav>
+		    <nav class="nav-button" id="CV"
 		        style={{width: this.compute_width(3) + "%"}}
 		        onMouseOver={this.mouseOvers[3]}
 		        onMouseOut={this.mouseOffs[3]}>
@@ -61,7 +61,7 @@ export default class Navbar extends React.Component {
 		            <a target="_blank" rel="noopener noreferrer" href={process.env.PUBLIC_URL + "/koshyCV.pdf"}>CURRICULUM VITAE</a> : 
 		            <a target="_blank" rel="noopener noreferrer" href={process.env.PUBLIC_URL + "/koshyCV.pdf"}>CV</a>  
 			}
-		    </div>
+		    </nav>
 	    </div>
 	);
     }
