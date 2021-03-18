@@ -10,7 +10,7 @@ export default class PublicationsList extends React.Component {
                    <div class="pub-entry">
   		       <p class="num">{"[" + (index + 1) + "] "}</p>
 		       <Publication authors={pub.authors} title={pub.title} 
-		           conference={pub.conference} year={pub.year} filename={pub.filename}/>
+		           conference={pub.conference} year={pub.year} award={pub.award} filename={pub.filename}/>
 		   </div>
 	       )}
 	   </div>
@@ -21,6 +21,7 @@ export default class PublicationsList extends React.Component {
 class Publication extends React.Component {
     constructor(props) {
         super(props);
+	console.log(props)
     }
     render() {
 //	        {(index == this.props.authors.length - 1) ? 
@@ -40,7 +41,6 @@ class Publication extends React.Component {
 		}
 	    </>
         ));
-	console.log(auths);
 	return (
             <div class="pub">
     	        <p>
