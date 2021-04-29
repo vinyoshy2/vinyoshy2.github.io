@@ -42,7 +42,7 @@ a {
 }
 
 
-a:visited {
+.nav-button a:visited {
   -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
