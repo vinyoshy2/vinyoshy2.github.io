@@ -1,0 +1,93 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato&family=Rambla:ital,wght@1,700&display=swap');
+
+
+#last-name {
+  align-self: flex-end;
+}
+
+.name {
+ margin-top: 10%;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 10%;
+}
+
+
+.name-text {
+  align-self: flex-start;
+  font-family: 'Rambla', sans-serif;
+  font-size: 105px;
+  text-decoration: none;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-   editor/#eb5777+0,eb5777+33,ef776a+33,ffe143+33,ffe143+66,2fb4e9+66,2aa3d4+100,0c2f3d+100,000000+100 */
+  /*text-decoration-color: #eb5777;  Old browsers */
+  background-image: -moz-linear-gradient(left,  #eb5777 0%, #eb5777 33%, #ef776a 33%, #ffe143    33%, #ffe143 66%, #2fb4e9 66%, #2aa3d4 100%, #0c2f3d 100%, #000000 100%); /* FF3.6-15 */
+  background-image: -webkit-linear-gradient(left,  #eb5777 0%,#eb5777 33%,#ef776a 33%,#ffe143 33%,#ffe143 66%,#2fb4e9 66%,#2aa3d4 100%,#0c2f3d 100%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+  background-image: linear-gradient(to right,  #eb5777 0%,#eb5777 33%,#ef776a 33%,#ffe143 33%,#ffe143 66%,#2fb4e9 66%,#2aa3d4 100%,#0c2f3d 100%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb5777', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 10px;
+
+}
+.sidebar-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.sidebar {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#image{
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-radius: 10px; 
+  max-width: 100%;
+  max-height:100%;
+}
+
+.stripe {
+  margin-left: 2%;
+  margin-right:2%;
+  width: 5px;
+  height: 100%;
+}
+
+
+#Cyan {
+  background-color: #00ffff;
+}
+
+#Yellow {
+  background-color: #ffff00;
+}
+
+#Magenta {
+  background-color: #ff00ff;
+}
+
+
+
+@media (max-width: 800px){
+  .sidebar {
+    width: 90%;
+    height: 100vh;
+    align-self: center;
+  }
+  .name {
+    margin-bottom: 5vh;
+  }
+  .sidebar-image {
+    height: 40vh;
+  }
+  .name-text {
+    font-size: 105px;
+  }
+}

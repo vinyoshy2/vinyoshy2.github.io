@@ -1,0 +1,21 @@
+html, body, .App, #root {
+  height: 100vh;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 800px){
+   html, body, .App, #root {
+     height:200vh;
+   }
+  .App {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }  
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Rambla:ital,wght@1,700&display=swap');
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+.nav-button {
+  font-family: 'Rambla', sans-serif;
+  font-size: 35px;
+  text-align: end;
+  padding-right: 20px;
+  color: black;
+  transition: width .25s ease-out;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+#about {
+  background-color: #F25C84;
+}
+
+#publications {
+  background-color: #FEE143;
+}
+
+#teaching {
+  background-color: #2EB3E8;
+}
+#CV {
+  background-color: #000000;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.nav-button a:visited {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
