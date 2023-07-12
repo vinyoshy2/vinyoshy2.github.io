@@ -1,5 +1,26 @@
 {
     "publications": [
+	{
+	   "authors": ["Alex Atcheson*", "Vinay Koshy*", "Karrie Karahalios"],
+	   "title": "[On Moderation and Norm Preservation in Online Communities] (In Submission)"
+	},
+        
+	{
+	    "authors": ["Vinay Koshy", "Tanvi Bajpai", "Eshwar Chandrasekharan", "Hari Sundaram", "Karrie Karahalios"],
+	    "title": "Measuring User-Moderator Alignment on r/ChangeMyView",
+	    "conference": "CSCW",
+	    "year": "2023",
+	    "filename": "user_mod_alignment.pdf",
+	    "supplement": "user_mod_alignment_supplement.pdf",
+	    "data_code": "Coming Soon!"
+	},
+	{
+	    "authors": ["Ali Zaidi*", "Rui Yang*", "Vinay Koshy", "Camille Cobb", "Indranil Gupta", "Karrie Karahalios"],
+	    "title": "A User-Centric Evaluation of Smart Home Resolution Approaches for Conflicts Between Routines",
+	    "conference": "IMWUT",
+	    "year": "2023",
+	    "filename": "routine_resolution.pdf"
+	},
         {
 	    "authors": ["Vinay Koshy", "Joon Sung Park", "Ti-Chung Cheng", "Karrie Karahalios"],
 	    "title": "'We Just Use What They Give Us': Understanding Passenger User Perspectives in Smart Homes",

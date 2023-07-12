@@ -10,7 +10,7 @@ export default class PublicationsList extends React.Component {
                    <div class="pub-entry">
   		       <p class="num">{"[" + (index + 1) + "] "}</p>
 		       <Publication authors={pub.authors} title={pub.title} 
-		           conference={pub.conference} year={pub.year} award={pub.award} filename={pub.filename}/>
+		           conference={pub.conference} year={pub.year} award={pub.award} filename={pub.filename} supplement={pub.supplement} data_code={pub.data_code}/>
 		   </div>
 	       )}
 	   </div>
@@ -30,7 +30,7 @@ class Publication extends React.Component {
 //	            <b>{item}</b> :
         let auths = this.props.authors.map((item, index) => (
 	    <> 
-		{ (item == "Vinay Koshy") ?
+		{ (item == "Vinay Koshy" || item == "Vinay Koshy*") ?
   	            <b>{item}</b> :
 		    <>{item}</>
 		}
@@ -51,16 +51,41 @@ class Publication extends React.Component {
 		        {this.props.title + ". "}
 		    </span>
 		    <span>
-		        {this.props.conference + " "} 
+		        {this.props.conference ? 
+				this.props.conference + " " :
+				""} 
 		    </span>
 		    <span>
-		        {this.props.year + ". "}
+		        {this.props.year ? 
+				this.props.year + ". " : 
+				""}
 		    </span>
 		    <span>
-		        <b>{this.props.award}</b>.
+		        { this.props.award ?
+  			        <b>{this.props.award + "."}</b> : 
+			        <>{""}</>
+			}
 		    </span>
 		    <span>
-		        <a href={process.env.PUBLIC_URL + "/papers/" + this.props.filename}> PDF</a>
+		        { this.props.filename ? 
+	  		        <a href={process.env.PUBLIC_URL + "/papers/" + this.props.filename}> [PDF]</a> : 
+				<>{""}</>
+		        }
+		    </span>
+		    <span>
+		        { this.props.supplement ? 
+	  		        <a href={process.env.PUBLIC_URL + "/papers/" + this.props.supplement}> [Supplement] </a> : 
+				<>{""}</>
+		        }
+		    </span>
+		    <span>
+		        { this.props.data_code ? 
+				(this.props.data_code) == "Coming Soon!" ? 
+					<>[Data and code coming soon!]</> :
+					<a href={this.props.data_code}> [Data and Code] </a> :
+
+				<>{""}</>
+		        }
 		    </span>
 		</p>
             </div>
