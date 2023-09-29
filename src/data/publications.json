@@ -12,6 +12,7 @@
 	    "year": "2023",
 	    "filename": "user_mod_alignment.pdf",
 	    "supplement": "user_mod_alignment_supplement.pdf",
+	    "award":  "Best Paper (Top 1% of Submissions)",
 	    "data_code": "https://drive.google.com/drive/folders/1EqZ1RBWFZokdoHGT-pB-7pKPbHBM2IJT?usp=sharing"
 	},
 	{
@@ -27,7 +28,7 @@
 	    "conference": "CHI",
 	    "year": "2021",
 	    "filename": "passenger_users.pdf",
-	    "award":  "Best Paper Honorable Mention"
+	    "award":  "Best Paper Honorable Mention (Top 10% of Submissions)"
 	}
     ]
 }
