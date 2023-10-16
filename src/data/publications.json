@@ -1,11 +1,6 @@
 {
     "publications": [
 	{
-	   "authors": ["Alex Atcheson*", "Vinay Koshy*", "Karrie Karahalios"],
-	   "title": "[On Moderation and Norm Preservation in Online Communities] (In Submission)"
-	},
-        
-	{
 	    "authors": ["Vinay Koshy", "Tanvi Bajpai", "Eshwar Chandrasekharan", "Hari Sundaram", "Karrie Karahalios"],
 	    "title": "Measuring User-Moderator Alignment on r/ChangeMyView",
 	    "conference": "CSCW",
