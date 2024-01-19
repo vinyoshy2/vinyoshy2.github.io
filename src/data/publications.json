@@ -1,6 +1,14 @@
 {
     "publications": [
 	{
+	    "authors": ["Vinay Koshy", "Alex Atcheson", "Karrie Karahalios"],
+	    "title": " Not What it Used to Be: Characterizing Content and User-base Changes in Newly Created Online Communities ",
+	    "conference": "CHI",
+	    "year": "2024",
+	    "filename": "growth_distinctiveness.pdf",
+	    "data_code": "Coming Soon!"
+	},
+	{
 	    "authors": ["Vinay Koshy", "Tanvi Bajpai", "Eshwar Chandrasekharan", "Hari Sundaram", "Karrie Karahalios"],
 	    "title": "Measuring User-Moderator Alignment on r/ChangeMyView",
 	    "conference": "CSCW",
