@@ -1,12 +1,20 @@
 {
     "publications": [
 	{
+	    "authors": ["Frederick Choi", "Charlotte Lambert", "Vinay Koshy", "Sowmya Pratipati", "Tue Do", "Eshwar Chandrasekharan"],
+	    "title": "Creator Hearts: Investigating the Impact Positive Signals from YouTube Creators in Shaping COmment Section Behaviors",
+	    "conference": "Arxiv",
+	    "year": "2024",
+	    "filename": "creator_hearts.pdf"
+	},
+	{
 	    "authors": ["Vinay Koshy", "Alex Atcheson", "Karrie Karahalios"],
 	    "title": " Not What it Used to Be: Characterizing Content and User-base Changes in Newly Created Online Communities ",
 	    "conference": "CHI",
 	    "year": "2024",
 	    "filename": "growth_distinctiveness.pdf",
-	    "data_code": "Coming Soon!"
+	    "data_code": "Coming Soon!",
+	    "award":  "Best Paper Honorable Mention (Top 5% of Submissions)"
 	},
 	{
 	    "authors": ["Vinay Koshy", "Tanvi Bajpai", "Eshwar Chandrasekharan", "Hari Sundaram", "Karrie Karahalios"],
