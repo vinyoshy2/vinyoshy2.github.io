@@ -1,8 +1,29 @@
 {
     "publications": [
 	{
+	    "authors": ["Vinay Koshy", "Frederick Choi", "Yi-Shyuan Chiang", "Hari Sundaram", "Eshwar Chandrasekharan", "Karrie Karahalios"],
+	    "title": "Venire: A Machine Learning-Guided Panel Review System for Community Content Moderation",
+	    "conference": "Arxiv",
+	    "year": "2024",
+	    "filename": "venire.pdf"
+	},
+	{
+	    "authors": ["Ti-Chung Cheng", "Yutong Zhang", "Yi-Hung Chou", "Vinay Koshy", "Tiffany Wenting Li", "Karrie Karahalios", "Hari Sundaram"],
+	    "title": "(In Submission) Organize, Then Vote: Exploring Cognitive Load in Quadratic Survey Interfaces",
+	    "conference": "CHI",
+	    "year": "2024",
+	    "filename": ""
+	},
+	{
+	    "authors": ["Silas Hsu", "Vinay Koshy", "Kristen Vaccaro", "Christian Sandvig", "Karrie Karahalios"],
+	    "title": "(In Submission) Placebo Effects of Control Settings Are Not Always Strong",
+	    "conference": "CHI",
+	    "year": "2024",
+	    "filename": ""
+	},
+	{
 	    "authors": ["Frederick Choi", "Charlotte Lambert", "Vinay Koshy", "Sowmya Pratipati", "Tue Do", "Eshwar Chandrasekharan"],
-	    "title": "Creator Hearts: Investigating the Impact Positive Signals from YouTube Creators in Shaping COmment Section Behaviors",
+	    "title": "Creator Hearts: Investigating the Impact Positive Signals from YouTube Creators in Shaping Comment Section Behaviors",
 	    "conference": "Arxiv",
 	    "year": "2024",
 	    "filename": "creator_hearts.pdf"
