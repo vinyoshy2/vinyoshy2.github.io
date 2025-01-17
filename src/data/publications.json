@@ -9,14 +9,14 @@
 	},
 	{
 	    "authors": ["Ti-Chung Cheng", "Yutong Zhang", "Yi-Hung Chou", "Vinay Koshy", "Tiffany Wenting Li", "Karrie Karahalios", "Hari Sundaram"],
-	    "title": "(In Submission) Organize, Then Vote: Exploring Cognitive Load in Quadratic Survey Interfaces",
+	    "title": "Organize, Then Vote: Exploring Cognitive Load in Quadratic Survey Interfaces",
 	    "conference": "CHI",
-	    "year": "2024",
+	    "year": "2025",
 	    "filename": ""
 	},
 	{
 	    "authors": ["Silas Hsu", "Vinay Koshy", "Kristen Vaccaro", "Christian Sandvig", "Karrie Karahalios"],
-	    "title": "(In Submission) Placebo Effects of Control Settings Are Not Always Strong",
+	    "title": "Placebo Effects of Control Settings Are Not Always Strong",
 	    "conference": "CHI",
 	    "year": "2024",
 	    "filename": ""
@@ -24,8 +24,8 @@
 	{
 	    "authors": ["Frederick Choi", "Charlotte Lambert", "Vinay Koshy", "Sowmya Pratipati", "Tue Do", "Eshwar Chandrasekharan"],
 	    "title": "Creator Hearts: Investigating the Impact Positive Signals from YouTube Creators in Shaping Comment Section Behaviors",
-	    "conference": "Arxiv",
-	    "year": "2024",
+	    "conference": "CHI",
+	    "year": "2025",
 	    "filename": "creator_hearts.pdf"
 	},
 	{
