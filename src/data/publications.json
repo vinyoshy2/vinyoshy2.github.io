@@ -12,14 +12,15 @@
 	    "title": "Organize, Then Vote: Exploring Cognitive Load in Quadratic Survey Interfaces",
 	    "conference": "CHI",
 	    "year": "2025",
-	    "filename": ""
+	    "filename": "organizeqv.pdf"
 	},
 	{
 	    "authors": ["Silas Hsu", "Vinay Koshy", "Kristen Vaccaro", "Christian Sandvig", "Karrie Karahalios"],
 	    "title": "Placebo Effects of Control Settings Are Not Always Strong",
 	    "conference": "CHI",
 	    "year": "2025",
-	    "filename": ""
+	    "filename": "placebo.pdf",
+	    "award": "Best Paper (Top 1% of Submissions)"
 	},
 	{
 	    "authors": ["Frederick Choi", "Charlotte Lambert", "Vinay Koshy", "Sowmya Pratipati", "Tue Do", "Eshwar Chandrasekharan"],
